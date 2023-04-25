@@ -1,0 +1,93 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(assets/dining\ bg.jpg);
+  background-position: center;
+  background-color: rgba(0, 79, 153, 0.692);
+  background-blend-mode: multiply;
+  /* background-size: 1366px 660px; */
+  background-size: auto;
+  z-index: 1;
+}
+#form {
+  display: flex;
+  height: 500px;
+  width: 914px;
+  margin: 80px auto 80px;
+  background: linear-gradient(
+    rgb(46, 154, 255),
+    rgb(18, 140, 255),
+    rgb(1, 132, 255),
+    rgb(0, 79, 153)
+  );
+  border-radius: 25px;
+  box-shadow: 8px 8px 4px rgba(0, 40, 78, 0.692),
+    -8px -8px 4px rgba(0, 40, 78, 0.692);
+}
+img {
+  height: 460px;
+  width: 425px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+}
+#input-data {
+  background-color: #ffffff;
+  height: 460px;
+  width: 450px;
+  margin: 20px 20px 20px 0px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 30px 10px 0 9.5px;
+  width: 40%;
+  background: transparent;
+  border: 3px solid rgb(97, 97, 97);
+  color: rgb(36, 36, 36);
+  border-radius: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 7px;
+  outline-color: rgb(53, 157, 255);
+}
+#submit-btn {
+  position: relative;
+  top: 60px;
+  margin: 0 124.5px 0 124.5px;
+  width: 40%;
+  background: linear-gradient(
+    rgb(255, 134, 134),
+    rgb(255, 114, 114),
+    rgb(255, 96, 96),
+    rgb(255, 79, 79)
+  );
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+#submit-btn:active {
+  background: linear-gradient(
+    rgb(255, 79, 79),
+    rgb(255, 96, 96),
+    rgb(255, 114, 114),
+    rgb(255, 134, 134)
+  );
+  border: 1px solid rgb(255, 200, 200);
+}
+
+h1 {
+  width: 400px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(77, 77, 77);
+  text-shadow: 0.5px 0.5px 1px rgb(58, 58, 58);
+  margin: 20px 9px 0 20px;
+}
