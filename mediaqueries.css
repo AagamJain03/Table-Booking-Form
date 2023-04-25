@@ -24,7 +24,7 @@
     margin-right: 30px;
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 425px) {
   #form {
     height: 480px;
     width: 360px;
@@ -36,9 +36,9 @@
   }
   #input-data {
     position: absolute;
-    left: 49.5px;
+    left: 22.5px;
     background-image: url(assets/Dining\ Vector.jpg);
-    background-size: 360px 440px;
+    background-size: 340px 440px;
     background-color: rgba(255, 255, 255, 0.795);
     background-blend-mode: color;
     height: 440px;
@@ -56,5 +56,75 @@
   #submit-btn {
     margin-left: 102px;
     margin-right: 102px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #form {
+    height: 480px;
+    width: 320px;
+    margin-top: 13.5px;
+    margin-bottom: 13.5px;
+  }
+  img {
+    display: none;
+  }
+  #input-data {
+    position: absolute;
+    left: 17.5px;
+    background-image: url(assets/Dining\ Vector.jpg);
+    background-size: 300px 440px;
+    background-color: rgba(255, 255, 255, 0.795);
+    background-blend-mode: color;
+    height: 440px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  input {
+    width: 36.17%;
+  }
+  h1 {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  #submit-btn {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #form {
+    height: 480px;
+    width: 280px;
+    margin-top: 13.5px;
+    margin-bottom: 13.5px;
+  }
+  img {
+    display: none;
+  }
+  #input-data {
+    position: absolute;
+    left: 10px;
+    background-image: url(assets/Dining\ Vector.jpg);
+    background-size: 260px 440px;
+    background-color: rgba(255, 255, 255, 0.795);
+    background-blend-mode: color;
+    height: 440px;
+    width: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  input {
+    font-size: 10px;
+    width: 34%;
+  }
+  h1 {
+    font-size: 18px;
+    margin-left: 12px;
+  }
+  #submit-btn {
+    margin-left: 78px;
+    margin-right: 78px;
   }
 }
